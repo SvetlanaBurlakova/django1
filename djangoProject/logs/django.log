@@ -1,0 +1,7 @@
+INFO 2024-03-07 11:46:43,049 autoreload 6804 3288 Watching for file changes with StatReloader
+DEBUG 2024-03-07 11:46:45,695 views 6804 3440 <WSGIRequest: GET '/'>
+INFO 2024-03-07 11:46:45,712 basehttp 6804 3440 "GET / HTTP/1.1" 200 226
+DEBUG 2024-03-07 11:46:47,908 views 6804 3440 <WSGIRequest: GET '/about/'>
+INFO 2024-03-07 11:46:47,910 basehttp 6804 3440 "GET /about/ HTTP/1.1" 200 8
+DEBUG 2024-03-07 11:46:53,718 views 6804 3440 <WSGIRequest: GET '/about/'>
+INFO 2024-03-07 11:46:53,719 basehttp 6804 3440 "GET /about/ HTTP/1.1" 200 8
