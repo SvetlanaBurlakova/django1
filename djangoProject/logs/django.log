@@ -5,3 +5,8 @@ DEBUG 2024-03-07 11:46:47,908 views 6804 3440 <WSGIRequest: GET '/about/'>
 INFO 2024-03-07 11:46:47,910 basehttp 6804 3440 "GET /about/ HTTP/1.1" 200 8
 DEBUG 2024-03-07 11:46:53,718 views 6804 3440 <WSGIRequest: GET '/about/'>
 INFO 2024-03-07 11:46:53,719 basehttp 6804 3440 "GET /about/ HTTP/1.1" 200 8
+INFO 2024-03-11 14:43:26,921 autoreload 8048 14420 Watching for file changes with StatReloader
+DEBUG 2024-03-11 14:43:34,466 views 8048 316 <WSGIRequest: GET '/'>
+INFO 2024-03-11 14:43:34,494 basehttp 8048 316 "GET / HTTP/1.1" 200 226
+WARNING 2024-03-11 14:43:39,056 log 8048 316 Not Found: /favicon.ico
+WARNING 2024-03-11 14:43:39,133 basehttp 8048 316 "GET /favicon.ico HTTP/1.1" 404 3429
