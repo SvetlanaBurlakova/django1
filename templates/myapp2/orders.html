@@ -6,7 +6,7 @@
 
 {% block content %}
 	<h1>
-        Все заказы пользователя{{ client.name|title }} за неделю
+        Все заказы пользователя{{ client.name|title }} за {{ title }}
     </h1>
     <p>
         {% for product, date_order in products %}

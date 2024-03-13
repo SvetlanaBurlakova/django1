@@ -23,10 +23,10 @@ def orders_week(request, client_id):
                 for product in order.products.all():
                     goods.append((product,date_order))
 
-    context = {'title': 'Все заказы за Неделю',
+    context = {'title': 'Неделя',
                'client': client,
                'products': goods}
-    return render(request, 'myapp2/orders_week.html', context=context)
+    return render(request, 'myapp2/orders.html', context=context)
 
 def orders_month(request, client_id):
     client = get_object_or_404(Client, pk=client_id)
@@ -41,10 +41,10 @@ def orders_month(request, client_id):
                 for product in order.products.all():
                     goods.append((product,date_order))
 
-    context = {'title': 'Все заказы за месяц',
+    context = {'title': 'месяц',
                'client': client,
                'products': goods}
-    return render(request, 'myapp2/orders_week.html', context=context)
+    return render(request, 'myapp2/orders.html', context=context)
 
 
 def orders_year(request, client_id):
@@ -60,7 +60,7 @@ def orders_year(request, client_id):
                 for product in order.products.all():
                     goods.append((product,date_order))
 
-    context = {'title': 'Все заказы за Год',
+    context = {'title': 'Год',
                'client': client,
                'products': goods}
-    return render(request, 'myapp2/orders_week.html', context=context)
+    return render(request, 'myapp2/orders.html', context=context)

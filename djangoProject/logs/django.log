@@ -768,3 +768,16 @@ WARNING 2024-03-13 16:13:00,526 basehttp 16312 440 "GET /favicon.ico HTTP/1.1" 4
 INFO 2024-03-13 16:13:04,258 basehttp 16312 13444 "GET /orders/2/week/ HTTP/1.1" 200 921
 INFO 2024-03-13 16:13:12,976 basehttp 16312 564 "GET /orders/2/month/ HTTP/1.1" 200 1792
 INFO 2024-03-13 16:13:24,365 basehttp 16312 18636 "GET /orders/2/year/ HTTP/1.1" 200 3312
+INFO 2024-03-13 16:17:05,364 autoreload 20880 15472 Watching for file changes with StatReloader
+DEBUG 2024-03-13 16:17:11,259 views 20880 15120 <WSGIRequest: GET '/'>
+INFO 2024-03-13 16:17:11,378 basehttp 20880 15120 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 16:17:12,063 log 20880 15120 Not Found: /favicon.ico
+WARNING 2024-03-13 16:17:12,100 basehttp 20880 15120 "GET /favicon.ico HTTP/1.1" 404 4298
+INFO 2024-03-13 16:17:18,483 basehttp 20880 21024 "GET /orders/2/week/ HTTP/1.1" 200 946
+INFO 2024-03-13 16:17:26,194 basehttp 20880 21024 "GET /orders/2/month/ HTTP/1.1" 200 1817
+INFO 2024-03-13 16:17:37,349 basehttp 20880 18360 "GET /orders/2/year/ HTTP/1.1" 200 3337
+INFO 2024-03-13 16:18:40,352 autoreload 20880 15472 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 16:18:42,066 autoreload 13836 11520 Watching for file changes with StatReloader
+INFO 2024-03-13 16:18:45,582 basehttp 13836 1884 "GET /orders/2/year/ HTTP/1.1" 200 3306
+INFO 2024-03-13 16:18:54,524 basehttp 13836 21512 "GET /orders/2/month/ HTTP/1.1" 200 1790
+INFO 2024-03-13 16:19:08,013 basehttp 13836 18780 "GET /orders/2/week/ HTTP/1.1" 200 921
