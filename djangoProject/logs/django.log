@@ -10,3 +10,761 @@ DEBUG 2024-03-11 14:43:34,466 views 8048 316 <WSGIRequest: GET '/'>
 INFO 2024-03-11 14:43:34,494 basehttp 8048 316 "GET / HTTP/1.1" 200 226
 WARNING 2024-03-11 14:43:39,056 log 8048 316 Not Found: /favicon.ico
 WARNING 2024-03-11 14:43:39,133 basehttp 8048 316 "GET /favicon.ico HTTP/1.1" 404 3429
+INFO 2024-03-13 11:12:47,012 autoreload 21812 7576 Watching for file changes with StatReloader
+DEBUG 2024-03-13 11:13:11,550 views 21812 23040 <WSGIRequest: GET '/'>
+INFO 2024-03-13 11:13:11,609 basehttp 21812 23040 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 11:13:14,848 log 21812 4408 Not Found: /favicon.ico
+WARNING 2024-03-13 11:13:14,916 basehttp 21812 4408 "GET /favicon.ico HTTP/1.1" 404 3429
+DEBUG 2024-03-13 11:13:49,358 views 21812 19944 <WSGIRequest: GET '/about/'>
+INFO 2024-03-13 11:13:49,360 basehttp 21812 19944 "GET /about/ HTTP/1.1" 200 8
+DEBUG 2024-03-13 11:15:38,145 views 21812 5144 <WSGIRequest: GET '/'>
+INFO 2024-03-13 11:15:38,175 basehttp 21812 5144 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 11:15:38,880 log 21812 5144 Not Found: /favicon.ico
+WARNING 2024-03-13 11:15:38,926 basehttp 21812 5144 "GET /favicon.ico HTTP/1.1" 404 3429
+DEBUG 2024-03-13 11:15:43,815 views 21812 13104 <WSGIRequest: GET '/about/'>
+INFO 2024-03-13 11:15:43,817 basehttp 21812 13104 "GET /about/ HTTP/1.1" 200 8
+INFO 2024-03-13 11:16:56,462 autoreload 21812 7576 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp\views.py changed, reloading.
+INFO 2024-03-13 11:16:58,814 autoreload 14148 10936 Watching for file changes with StatReloader
+DEBUG 2024-03-13 11:17:01,289 views 14148 6064 <WSGIRequest: GET '/'>
+INFO 2024-03-13 11:17:01,577 basehttp 14148 6064 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 11:17:02,355 log 14148 6064 Not Found: /favicon.ico
+WARNING 2024-03-13 11:17:02,578 basehttp 14148 6064 "GET /favicon.ico HTTP/1.1" 404 3429
+DEBUG 2024-03-13 11:17:03,950 views 14148 6064 <WSGIRequest: GET '/about/'>
+INFO 2024-03-13 11:17:03,954 basehttp 14148 6064 "GET /about/ HTTP/1.1" 200 227
+DEBUG 2024-03-13 11:17:07,407 views 14148 6064 <WSGIRequest: GET '/about/'>
+INFO 2024-03-13 11:17:07,409 basehttp 14148 6064 "GET /about/ HTTP/1.1" 200 227
+INFO 2024-03-13 11:18:22,240 autoreload 14148 10936 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp\views.py changed, reloading.
+INFO 2024-03-13 11:18:29,554 autoreload 22968 19888 Watching for file changes with StatReloader
+DEBUG 2024-03-13 11:18:39,045 views 22968 22384 <WSGIRequest: GET '/'>
+INFO 2024-03-13 11:18:39,135 basehttp 22968 22384 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 11:18:39,903 log 22968 22384 Not Found: /favicon.ico
+WARNING 2024-03-13 11:18:39,947 basehttp 22968 22384 "GET /favicon.ico HTTP/1.1" 404 3429
+DEBUG 2024-03-13 11:18:41,357 views 22968 22384 <WSGIRequest: GET '/about/'>
+INFO 2024-03-13 11:18:41,360 basehttp 22968 22384 "GET /about/ HTTP/1.1" 200 221
+INFO 2024-03-13 12:30:45,505 autoreload 17392 15824 Watching for file changes with StatReloader
+DEBUG 2024-03-13 12:33:46,986 views 22968 13964 <WSGIRequest: GET '/'>
+INFO 2024-03-13 12:33:47,374 basehttp 22968 13964 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 12:33:48,499 log 22968 13964 Not Found: /favicon.ico
+WARNING 2024-03-13 12:33:48,759 basehttp 22968 13964 "GET /favicon.ico HTTP/1.1" 404 3429
+DEBUG 2024-03-13 12:34:02,660 views 22968 15912 tail
+ERROR 2024-03-13 12:34:04,051 log 22968 15912 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp\views.py", line 29, in coin
+    return render(request, 'coin.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: coin.html
+ERROR 2024-03-13 12:34:04,151 basehttp 22968 15912 "GET /coin/ HTTP/1.1" 500 81115
+INFO 2024-03-13 12:35:56,401 autoreload 1248 23080 Watching for file changes with StatReloader
+ERROR 2024-03-13 12:36:01,299 exception 22968 20644 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2024-03-13 12:36:01,447 log 22968 20644 Bad Request: /
+WARNING 2024-03-13 12:36:01,453 basehttp 22968 20644 "GET / HTTP/1.1" 400 69515
+ERROR 2024-03-13 12:36:02,131 exception 22968 14720 Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2024-03-13 12:36:02,209 log 22968 14720 Bad Request: /favicon.ico
+WARNING 2024-03-13 12:36:02,211 basehttp 22968 14720 "GET /favicon.ico HTTP/1.1" 400 69357
+INFO 2024-03-13 12:42:47,388 autoreload 23516 14196 Watching for file changes with StatReloader
+DEBUG 2024-03-13 12:42:51,402 views 23516 1004 <WSGIRequest: GET '/'>
+INFO 2024-03-13 12:42:51,432 basehttp 23516 1004 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 12:42:55,525 log 23516 1004 Not Found: /favicon.ico
+WARNING 2024-03-13 12:42:55,612 basehttp 23516 1004 "GET /favicon.ico HTTP/1.1" 404 3429
+DEBUG 2024-03-13 12:43:00,343 views 23516 1004 head
+ERROR 2024-03-13 12:43:00,679 log 23516 1004 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp\views.py", line 29, in coin
+    return render(request, 'coin.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: coin.html
+ERROR 2024-03-13 12:43:00,694 basehttp 23516 1004 "GET /coin/ HTTP/1.1" 500 81289
+INFO 2024-03-13 12:45:05,198 autoreload 23516 14196 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp\views.py changed, reloading.
+INFO 2024-03-13 12:45:08,980 autoreload 348 15812 Watching for file changes with StatReloader
+DEBUG 2024-03-13 12:45:19,684 views 348 10932 <WSGIRequest: GET '/'>
+INFO 2024-03-13 12:45:19,708 basehttp 348 10932 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 12:45:21,027 log 348 10932 Not Found: /favicon.ico
+WARNING 2024-03-13 12:45:21,097 basehttp 348 10932 "GET /favicon.ico HTTP/1.1" 404 3429
+DEBUG 2024-03-13 12:45:26,264 views 348 10932 tail
+INFO 2024-03-13 12:45:26,290 basehttp 348 10932 "GET /coin/ HTTP/1.1" 200 224
+DEBUG 2024-03-13 12:45:29,449 views 348 10932 tail
+INFO 2024-03-13 12:45:29,476 basehttp 348 10932 "GET /coin/ HTTP/1.1" 200 224
+DEBUG 2024-03-13 12:45:32,393 views 348 10932 tail
+INFO 2024-03-13 12:45:32,440 basehttp 348 10932 "GET /coin/ HTTP/1.1" 200 224
+INFO 2024-03-13 12:51:37,117 autoreload 348 15812 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp\urls.py changed, reloading.
+INFO 2024-03-13 12:51:40,033 autoreload 16464 6140 Watching for file changes with StatReloader
+INFO 2024-03-13 13:05:37,625 autoreload 6444 23500 Watching for file changes with StatReloader
+INFO 2024-03-13 13:10:49,117 autoreload 6444 23500 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp\views.py changed, reloading.
+INFO 2024-03-13 13:10:53,295 autoreload 23236 21936 Watching for file changes with StatReloader
+INFO 2024-03-13 13:14:08,952 autoreload 11988 13392 Watching for file changes with StatReloader
+INFO 2024-03-13 13:14:48,324 autoreload 15548 9000 Watching for file changes with StatReloader
+DEBUG 2024-03-13 13:14:51,122 views 15548 15040 <WSGIRequest: GET '/'>
+INFO 2024-03-13 13:14:51,503 basehttp 15548 15040 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 13:14:53,864 log 15548 15040 Not Found: /favicon.ico
+WARNING 2024-03-13 13:14:54,232 basehttp 15548 15040 "GET /favicon.ico HTTP/1.1" 404 3479
+INFO 2024-03-13 13:14:58,823 basehttp 15548 15040 "GET /coin/2 HTTP/1.1" 301 0
+DEBUG 2024-03-13 13:14:58,838 views 15548 9744 head
+ERROR 2024-03-13 13:14:59,103 log 15548 9744 Internal Server Error: /coin/2/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp\views.py", line 30, in coin
+    return render(request, 'myapp/coin.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'coin' with no arguments not found. 1 pattern(s) tried: ['coin/(?P<amount_flips>[0-9]+)/\\Z']
+ERROR 2024-03-13 13:14:59,154 basehttp 15548 9744 "GET /coin/2/ HTTP/1.1" 500 149452
+INFO 2024-03-13 13:16:20,934 autoreload 10492 22836 Watching for file changes with StatReloader
+DEBUG 2024-03-13 13:16:23,672 views 10492 6140 <WSGIRequest: GET '/'>
+INFO 2024-03-13 13:16:23,919 basehttp 10492 6140 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 13:16:24,624 log 10492 6140 Not Found: /favicon.ico
+WARNING 2024-03-13 13:16:24,768 basehttp 10492 6140 "GET /favicon.ico HTTP/1.1" 404 3479
+DEBUG 2024-03-13 13:16:35,340 views 10492 6140 head
+INFO 2024-03-13 13:16:35,342 basehttp 10492 6140 "GET /coin/2/ HTTP/1.1" 200 350
+INFO 2024-03-13 14:57:48,494 autoreload 20192 16508 Watching for file changes with StatReloader
+INFO 2024-03-13 14:58:26,511 autoreload 20192 16508 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 14:58:28,340 autoreload 7744 5628 Watching for file changes with StatReloader
+INFO 2024-03-13 14:59:53,633 autoreload 15372 15316 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:00:03,194 views 15372 17812 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:00:03,403 basehttp 15372 17812 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 15:00:05,104 log 15372 17812 Not Found: /favicon.ico
+WARNING 2024-03-13 15:00:05,458 basehttp 15372 17812 "GET /favicon.ico HTTP/1.1" 404 4298
+WARNING 2024-03-13 15:00:14,252 log 15372 8824 Not Found: /client/2/week
+WARNING 2024-03-13 15:00:14,254 basehttp 15372 8824 "GET /client/2/week HTTP/1.1" 404 4304
+INFO 2024-03-13 15:00:39,758 basehttp 15372 12484 "GET /orders/2/week HTTP/1.1" 301 0
+INFO 2024-03-13 15:00:39,806 basehttp 15372 17360 "GET /orders/2/week/ HTTP/1.1" 200 641
+INFO 2024-03-13 15:04:50,247 autoreload 15372 15316 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:04:56,009 autoreload 22068 7780 Watching for file changes with StatReloader
+INFO 2024-03-13 15:07:59,015 autoreload 22068 7780 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:08:03,352 autoreload 21536 23436 Watching for file changes with StatReloader
+INFO 2024-03-13 15:08:36,072 autoreload 21536 23436 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:08:38,533 autoreload 18428 17416 Watching for file changes with StatReloader
+INFO 2024-03-13 15:09:24,019 autoreload 18428 17416 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:09:26,892 autoreload 9232 22868 Watching for file changes with StatReloader
+INFO 2024-03-13 15:10:17,006 autoreload 9232 22868 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:10:20,373 autoreload 21036 23528 Watching for file changes with StatReloader
+INFO 2024-03-13 15:12:16,592 autoreload 21036 23528 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:12:18,555 autoreload 6472 6484 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:12:23,497 views 6472 14492 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:12:23,818 basehttp 6472 14492 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 15:12:24,793 log 6472 14492 Not Found: /favicon.ico
+WARNING 2024-03-13 15:12:24,956 basehttp 6472 14492 "GET /favicon.ico HTTP/1.1" 404 4298
+ERROR 2024-03-13 15:12:30,782 log 6472 3336 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 18, in orders_week
+    orders.sort(key=lambda: order.date_ordered,reverse=True)
+    ^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'sort'
+ERROR 2024-03-13 15:12:30,845 basehttp 6472 3336 "GET /orders/2/week/ HTTP/1.1" 500 66739
+INFO 2024-03-13 15:16:38,456 autoreload 6472 6484 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:16:40,041 autoreload 12892 9888 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:16:42,401 views 12892 5328 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:16:42,592 basehttp 12892 5328 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 15:16:43,326 log 12892 5328 Not Found: /favicon.ico
+WARNING 2024-03-13 15:16:43,436 basehttp 12892 5328 "GET /favicon.ico HTTP/1.1" 404 4298
+ERROR 2024-03-13 15:16:49,752 log 12892 20688 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 17, in orders_week
+    orders = Order.objects.filter(client=client).order_by('-date')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\models\query.py", line 1701, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\models\sql\query.py", line 2253, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'date' into field. Choices are: client, client_id, date_ordered, id, products, total_price
+ERROR 2024-03-13 15:16:49,762 basehttp 12892 20688 "GET /orders/2/week/ HTTP/1.1" 500 82329
+INFO 2024-03-13 15:17:22,340 autoreload 12892 9888 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:17:24,100 autoreload 7232 19988 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:17:26,293 views 7232 17760 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:17:26,486 basehttp 7232 17760 "GET / HTTP/1.1" 200 249
+ERROR 2024-03-13 15:17:34,232 log 7232 22184 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 20, in orders_week
+    date_diff =datetime.timedelta(order.date_ordered - datetime.now()).days
+               ^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+ERROR 2024-03-13 15:17:34,246 basehttp 7232 22184 "GET /orders/2/week/ HTTP/1.1" 500 67280
+INFO 2024-03-13 15:18:08,920 autoreload 7232 19988 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:18:10,606 autoreload 12592 15812 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:18:19,907 views 12592 11352 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:18:20,025 basehttp 12592 11352 "GET / HTTP/1.1" 200 249
+ERROR 2024-03-13 15:18:25,889 log 12592 11352 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 20, in orders_week
+    date_diff = timedelta(order.date_ordered - datetime.now()).days
+                          ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+ERROR 2024-03-13 15:18:25,894 basehttp 12592 11352 "GET /orders/2/week/ HTTP/1.1" 500 67206
+INFO 2024-03-13 15:19:55,893 autoreload 12592 15812 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:19:58,082 autoreload 10244 15288 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:20:00,646 views 10244 20108 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:20:00,689 basehttp 10244 20108 "GET / HTTP/1.1" 200 249
+ERROR 2024-03-13 15:20:08,996 log 10244 20108 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 22, in orders_week
+    date_diff = timedelta(order.date_ordered - datetime.now()).days
+                          ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+ERROR 2024-03-13 15:20:09,001 basehttp 10244 20108 "GET /orders/2/week/ HTTP/1.1" 500 67200
+INFO 2024-03-13 15:20:56,059 autoreload 10244 15288 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:20:59,140 autoreload 5480 5176 Watching for file changes with StatReloader
+INFO 2024-03-13 15:21:40,526 autoreload 5480 5176 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:21:42,279 autoreload 22516 3288 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:21:44,298 views 22516 2008 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:21:44,385 basehttp 22516 2008 "GET / HTTP/1.1" 200 249
+ERROR 2024-03-13 15:21:49,771 log 22516 2008 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 20, in orders_week
+    date_diff = (order.date_ordered - datetime.now()).days
+                 ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+ERROR 2024-03-13 15:21:49,787 basehttp 22516 2008 "GET /orders/2/week/ HTTP/1.1" 500 67170
+INFO 2024-03-13 15:22:15,392 autoreload 22516 3288 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:22:17,743 autoreload 10772 16544 Watching for file changes with StatReloader
+INFO 2024-03-13 15:22:53,834 autoreload 10772 16544 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:22:55,552 autoreload 8424 15080 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:22:57,098 views 8424 12816 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:22:57,247 basehttp 8424 12816 "GET / HTTP/1.1" 200 249
+ERROR 2024-03-13 15:23:03,167 log 8424 21460 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 20, in orders_week
+    date_diff = timedelta(datetime.now() - order.date_ordered).days
+                          ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+ERROR 2024-03-13 15:23:03,173 basehttp 8424 21460 "GET /orders/2/week/ HTTP/1.1" 500 67206
+INFO 2024-03-13 15:24:06,604 autoreload 8424 15080 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:24:08,939 autoreload 18736 18036 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:24:10,805 views 18736 12900 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:24:10,860 basehttp 18736 12900 "GET / HTTP/1.1" 200 249
+ERROR 2024-03-13 15:24:17,651 log 18736 12900 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 20, in orders_week
+    date_diff = datetime.now() - order.date_ordered
+                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+ERROR 2024-03-13 15:24:17,656 basehttp 18736 12900 "GET /orders/2/week/ HTTP/1.1" 500 67133
+INFO 2024-03-13 15:25:38,606 autoreload 18736 18036 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:25:40,238 autoreload 2268 19628 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:25:42,974 views 2268 224 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:25:42,994 basehttp 2268 224 "GET / HTTP/1.1" 200 249
+ERROR 2024-03-13 15:25:49,110 log 2268 224 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 20, in orders_week
+    date_diff = datetime.utcnow() - order.date_ordered
+                ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+ERROR 2024-03-13 15:25:49,114 basehttp 2268 224 "GET /orders/2/week/ HTTP/1.1" 500 67145
+INFO 2024-03-13 15:26:37,182 autoreload 2268 19628 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:26:39,469 autoreload 22992 11496 Watching for file changes with StatReloader
+INFO 2024-03-13 15:29:26,856 autoreload 22992 11496 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:29:31,453 autoreload 9484 15708 Watching for file changes with StatReloader
+INFO 2024-03-13 15:31:19,174 autoreload 9484 15708 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:31:21,050 autoreload 22100 15092 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:31:26,678 log 22100 21984 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 21, in orders_week
+    new_date.replace(tzinfo=timezone)
+TypeError: tzinfo argument must be None or of a tzinfo subclass, not type 'function'
+ERROR 2024-03-13 15:31:26,691 basehttp 22100 21984 "GET /orders/2/week/ HTTP/1.1" 500 67600
+INFO 2024-03-13 15:32:53,185 autoreload 22100 15092 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:32:55,315 autoreload 14288 14768 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:32:58,984 log 14288 9672 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 22, in orders_week
+    new_date2.replace(tzinfo=timezone)
+TypeError: tzinfo argument must be None or of a tzinfo subclass, not type 'function'
+ERROR 2024-03-13 15:32:59,006 basehttp 14288 9672 "GET /orders/2/week/ HTTP/1.1" 500 67795
+INFO 2024-03-13 15:33:16,369 autoreload 14288 14768 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:33:17,921 autoreload 18780 3164 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:33:22,525 log 18780 13832 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 23, in orders_week
+    date_diff = new_date2 - new_date1
+                ~~~~~~~~~~^~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+ERROR 2024-03-13 15:33:22,542 basehttp 18780 13832 "GET /orders/2/week/ HTTP/1.1" 500 67683
+INFO 2024-03-13 15:35:05,759 autoreload 18780 3164 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:35:08,903 autoreload 16000 23504 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:35:12,457 log 16000 5328 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 22, in orders_week
+    new_date1 = new_date1.replace(tzinfo=timezone)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: tzinfo argument must be None or of a tzinfo subclass, not type 'function'
+ERROR 2024-03-13 15:35:12,470 basehttp 16000 5328 "GET /orders/2/week/ HTTP/1.1" 500 67843
+ERROR 2024-03-13 15:35:17,910 log 16000 4512 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 22, in orders_week
+    new_date1 = new_date1.replace(tzinfo=timezone)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: tzinfo argument must be None or of a tzinfo subclass, not type 'function'
+ERROR 2024-03-13 15:35:17,919 basehttp 16000 4512 "GET /orders/2/week/ HTTP/1.1" 500 67843
+INFO 2024-03-13 15:36:04,890 autoreload 16000 23504 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:36:12,468 autoreload 20160 21572 Watching for file changes with StatReloader
+INFO 2024-03-13 15:36:19,907 autoreload 20160 21572 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:36:35,124 autoreload 16028 9980 Watching for file changes with StatReloader
+INFO 2024-03-13 15:36:40,166 autoreload 16028 9980 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:36:42,206 autoreload 23420 15872 Watching for file changes with StatReloader
+DEBUG 2024-03-13 15:36:44,331 views 23420 13092 <WSGIRequest: GET '/'>
+INFO 2024-03-13 15:36:44,410 basehttp 23420 13092 "GET / HTTP/1.1" 200 249
+ERROR 2024-03-13 15:36:54,122 log 23420 16164 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 23, in orders_week
+    date_diff = new_date2 - new_date1
+                ~~~~~~~~~~^~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+ERROR 2024-03-13 15:36:54,155 basehttp 23420 16164 "GET /orders/2/week/ HTTP/1.1" 500 67701
+INFO 2024-03-13 15:37:24,077 autoreload 23420 15872 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:37:25,907 autoreload 16636 17216 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:37:29,408 log 16636 6916 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 27, in orders_week
+    for product,  in order.products.all():
+        ^^^^^^^^
+TypeError: cannot unpack non-iterable Product object
+ERROR 2024-03-13 15:37:29,422 basehttp 16636 6916 "GET /orders/2/week/ HTTP/1.1" 500 67931
+INFO 2024-03-13 15:39:10,762 autoreload 16636 17216 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:39:12,510 autoreload 12956 6820 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:39:16,977 log 12956 17704 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 23, in orders_week
+    date_diff = (datetime.now().replace(zinfo=timezone('UTC')) - order.date_ordered).days
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'zinfo' is an invalid keyword argument for replace()
+ERROR 2024-03-13 15:39:16,992 basehttp 12956 17704 "GET /orders/2/week/ HTTP/1.1" 500 67455
+INFO 2024-03-13 15:39:46,250 autoreload 12956 6820 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:39:48,193 autoreload 17428 2560 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:39:54,833 log 17428 22352 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 24, in orders_week
+    print(date_diff.days)
+          ^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'days'
+ERROR 2024-03-13 15:39:54,852 basehttp 17428 22352 "GET /orders/2/week/ HTTP/1.1" 500 67513
+INFO 2024-03-13 15:40:38,572 autoreload 17428 2560 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:40:40,476 autoreload 16516 17888 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:40:44,118 log 16516 14000 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 23, in orders_week
+    date_diff = (datetime.now().replace(tzinfo=timezone('UTC')) - order.date_ordered).days
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+ERROR 2024-03-13 15:40:44,128 basehttp 16516 14000 "GET /orders/2/week/ HTTP/1.1" 500 68081
+INFO 2024-03-13 15:41:50,086 autoreload 16516 17888 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:41:52,294 autoreload 12448 19776 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:41:56,010 log 12448 5176 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 23, in orders_week
+    date_diff = (new_date2 - new_date1).days
+                 ~~~~~~~~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+ERROR 2024-03-13 15:41:56,028 basehttp 12448 5176 "GET /orders/2/week/ HTTP/1.1" 500 68248
+INFO 2024-03-13 15:42:21,539 autoreload 12448 19776 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:42:23,396 autoreload 15052 20444 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:42:27,275 log 15052 11600 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 25, in orders_week
+    if date_diff < 31:
+       ^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'datetime.timedelta' and 'int'
+ERROR 2024-03-13 15:42:27,307 basehttp 15052 11600 "GET /orders/2/week/ HTTP/1.1" 500 68066
+INFO 2024-03-13 15:43:15,678 autoreload 15052 20444 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:43:17,458 autoreload 10860 16336 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:43:20,780 log 10860 9632 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 23, in orders_week
+    date_diff = new_date2 - new_date1
+                ~~~~~~~~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+ERROR 2024-03-13 15:43:20,794 basehttp 10860 9632 "GET /orders/2/week/ HTTP/1.1" 500 68290
+INFO 2024-03-13 15:43:57,176 autoreload 10860 16336 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:43:59,019 autoreload 14580 9120 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:44:05,468 log 14580 19780 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 24, in orders_week
+    date_diff = new_date2 - new_date1
+                ~~~~~~~~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+ERROR 2024-03-13 15:44:05,475 basehttp 14580 19780 "GET /orders/2/week/ HTTP/1.1" 500 68309
+INFO 2024-03-13 15:44:42,661 autoreload 14580 9120 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:44:54,035 autoreload 18024 9036 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:44:57,914 log 18024 11016 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 20, in orders_week
+    new_date1 = datetime(order.date_ordered)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'datetime.datetime' object cannot be interpreted as an integer
+ERROR 2024-03-13 15:44:57,981 basehttp 18024 11016 "GET /orders/2/week/ HTTP/1.1" 500 67353
+INFO 2024-03-13 15:46:20,105 autoreload 18024 9036 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:46:22,188 autoreload 14120 16116 Watching for file changes with StatReloader
+INFO 2024-03-13 15:46:31,583 autoreload 14784 16028 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:46:40,018 log 14784 18240 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 24, in orders_week
+    date_diff = new_date2 - new_date1
+                ~~~~~~~~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+ERROR 2024-03-13 15:46:40,125 basehttp 14784 18240 "GET /orders/2/week/ HTTP/1.1" 500 68310
+INFO 2024-03-13 15:47:35,568 autoreload 14784 16028 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 15:47:37,256 autoreload 7100 3584 Watching for file changes with StatReloader
+ERROR 2024-03-13 15:47:41,557 log 7100 18808 Internal Server Error: /orders/2/week/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 24, in orders_week
+    date_diff = new_date2 - new_date1
+                ~~~~~~~~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+ERROR 2024-03-13 15:47:41,567 basehttp 7100 18808 "GET /orders/2/week/ HTTP/1.1" 500 68324
+INFO 2024-03-13 15:59:03,674 autoreload 17568 6124 Watching for file changes with StatReloader
+INFO 2024-03-13 15:59:10,326 basehttp 17568 8508 "GET /orders/2/week/ HTTP/1.1" 200 403
+INFO 2024-03-13 16:01:12,844 autoreload 17568 6124 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 16:01:15,281 autoreload 20012 17888 Watching for file changes with StatReloader
+DEBUG 2024-03-13 16:01:32,278 views 20012 10036 <WSGIRequest: GET '/'>
+INFO 2024-03-13 16:01:32,296 basehttp 20012 10036 "GET / HTTP/1.1" 200 249
+DEBUG 2024-03-13 16:01:32,918 views 20012 10036 <WSGIRequest: GET '/'>
+INFO 2024-03-13 16:01:32,920 basehttp 20012 10036 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 16:01:33,636 log 20012 10036 Not Found: /favicon.ico
+WARNING 2024-03-13 16:01:33,683 basehttp 20012 10036 "GET /favicon.ico HTTP/1.1" 404 4298
+INFO 2024-03-13 16:01:36,931 basehttp 20012 10036 "GET /orders/2/week/ HTTP/1.1" 200 403
+INFO 2024-03-13 16:03:27,397 autoreload 20012 17888 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 16:03:29,200 autoreload 21360 9092 Watching for file changes with StatReloader
+DEBUG 2024-03-13 16:03:31,870 views 21360 7308 <WSGIRequest: GET '/'>
+INFO 2024-03-13 16:03:31,893 basehttp 21360 7308 "GET / HTTP/1.1" 200 249
+INFO 2024-03-13 16:03:43,156 basehttp 21360 20324 "GET /orders/2/week/ HTTP/1.1" 200 507
+INFO 2024-03-13 16:05:09,538 basehttp 21360 4432 "GET /orders/2/week/ HTTP/1.1" 200 1119
+INFO 2024-03-13 16:07:01,281 autoreload 21360 9092 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 16:07:03,327 autoreload 8428 10740 Watching for file changes with StatReloader
+INFO 2024-03-13 16:08:48,423 autoreload 2264 17264 Watching for file changes with StatReloader
+INFO 2024-03-13 16:08:50,082 basehttp 2264 7936 "GET /orders/2/week/ HTTP/1.1" 200 921
+INFO 2024-03-13 16:10:38,251 basehttp 2264 1104 "GET /orders/2/week/ HTTP/1.1" 200 921
+ERROR 2024-03-13 16:10:45,576 log 2264 1104 Internal Server Error: /orders/2/month/
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 43, in orders_month
+    return render(request, 'myapp2/orders_week.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\template\defaulttags.py", line 230, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 1. 
+ERROR 2024-03-13 16:10:45,592 basehttp 2264 1104 "GET /orders/2/month/ HTTP/1.1" 500 139645
+INFO 2024-03-13 16:12:26,272 autoreload 2264 17264 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 16:12:28,569 autoreload 14860 9256 Watching for file changes with StatReloader
+INFO 2024-03-13 16:12:47,105 autoreload 14860 9256 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-13 16:12:48,666 autoreload 16312 16576 Watching for file changes with StatReloader
+DEBUG 2024-03-13 16:12:58,207 views 16312 13960 <WSGIRequest: GET '/'>
+INFO 2024-03-13 16:12:58,276 basehttp 16312 13960 "GET / HTTP/1.1" 200 249
+DEBUG 2024-03-13 16:12:58,724 views 16312 13960 <WSGIRequest: GET '/'>
+INFO 2024-03-13 16:12:58,726 basehttp 16312 13960 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-13 16:12:59,379 log 16312 13960 Not Found: /favicon.ico
+WARNING 2024-03-13 16:12:59,798 basehttp 16312 13960 "GET /favicon.ico HTTP/1.1" 404 4298
+WARNING 2024-03-13 16:13:00,321 log 16312 440 Not Found: /favicon.ico
+WARNING 2024-03-13 16:13:00,526 basehttp 16312 440 "GET /favicon.ico HTTP/1.1" 404 4298
+INFO 2024-03-13 16:13:04,258 basehttp 16312 13444 "GET /orders/2/week/ HTTP/1.1" 200 921
+INFO 2024-03-13 16:13:12,976 basehttp 16312 564 "GET /orders/2/month/ HTTP/1.1" 200 1792
+INFO 2024-03-13 16:13:24,365 basehttp 16312 18636 "GET /orders/2/year/ HTTP/1.1" 200 3312

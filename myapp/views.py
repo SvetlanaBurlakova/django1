@@ -11,31 +11,31 @@ logger = logging.getLogger(__name__)
 
 def index(request):
     logger.debug(request)
-    return render(request, 'index.html')
+    return render(request, 'myapp/index.html', context = {'title':'Главная страница'})
 
 
 def about(request):
     logger.debug(request)
-    return HttpResponse("About us")
+    return render(request, 'myapp/about.html', context = {'title':'О нас'})
 
 
-def coin(request):
+def coin(request, amount_flips):
     coins = ['head', 'tail']
     coin = random.choice(coins)
     logger.debug(coin)
-    CoinFlip(side=coin).save()
-    context = {'current': coin,
-              'last_result': CoinFlip.get_last_fields(3)}
-    return render(request, 'coin.html', context)
+    result = [random.choice(coins) for _ in range(amount_flips)]
+    #CoinFlip(side=coin).save()
+    context = {'title': 'Бросание монеты',
+              'last_result': result}
+    return render(request, 'myapp/coin.html', context=context)
 
 
-def num(request):
-    num = random.randint(num)
+def num(request, amount_flips):
+    #num = random.randint(num)
     logger.debug(num)
-    return HttpResponse(f'Выпал {num}')
-
-def about(request):
-    logger.debug(request)
-    return HttpResponse("About us")
+    result = [random.randint(1,7) for _ in range(amount_flips)]
+    context = {'title': 'Бросание монеты',
+              'last_result': result}
+    return render(request, 'myapp/num.html', context=context)
 
 

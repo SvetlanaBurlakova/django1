@@ -1,0 +1,17 @@
+{%  extends 'base.html' %}
+
+{% block title %}
+	{{ title }}
+{% endblock %}
+
+{% block content %}
+	<h1>
+        Все заказы пользователя{{ client.name|title }} за неделю
+    </h1>
+    <p>
+        {% for product, date_order in products %}
+            <p>Название продукта = {{ product.name }},  Количество продукта ={{ product.count }}, 
+                Цена продукта = {{ product.price }}, Дата заказа = {{ date_order }}</p>
+        {%  endfor %}
+    </p>
+{% endblock %}
