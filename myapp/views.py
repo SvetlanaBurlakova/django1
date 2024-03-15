@@ -3,6 +3,7 @@ import logging
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import CoinFlip
+from .forms import ChoiceForm
 
 # Create your views here.
 
@@ -38,4 +39,16 @@ def num(request, amount_flips):
               'last_result': result}
     return render(request, 'myapp/num.html', context=context)
 
-
+def result(request):
+    func = {"Coin": coin, "Hundred": num}
+    if request.method == 'POST':
+        form = ChoiceForm(request.POST)
+        message = 'Ошибка в данных'
+        if form.is_valid():
+            count = form.cleaned_data['count']
+            choice = form.cleaned_data['choice']
+            return func[choice](request, count)
+    else:
+        form = ChoiceForm()
+        message = 'Выберите действие и количество'
+    return render(request, 'myapp4/user_form.html', {'form': form, 'message': message})

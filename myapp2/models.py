@@ -24,7 +24,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     count = models.IntegerField(default=0)
     date_added = models.DateField(default=timezone.now)
-
+    image = models.ImageField(upload_to='products/')
 
     def get_price(self):
         return self.price

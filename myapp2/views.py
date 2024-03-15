@@ -3,7 +3,10 @@ from pytz import timezone
 from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Client, Order, Product
+from .forms import ProductForm
 from django.shortcuts import render, get_object_or_404
+from django.core.files.storage import FileSystemStorage
+
 
 # Create your views here.
 def index(request):
@@ -64,3 +67,20 @@ def orders_year(request, client_id):
                'client': client,
                'products': goods}
     return render(request, 'myapp2/orders.html', context=context)
+
+
+def add_product(request):
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            fs.save(image.name, image)
+            Product(**form.cleaned_data).save()
+    else:
+        form = ProductForm()
+    context = {
+        'title': 'Добавление продукта',
+        'form': form,
+    }
+    return render(request, 'myapp2/add_product.html', context=context)

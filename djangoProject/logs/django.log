@@ -781,3 +781,104 @@ INFO 2024-03-13 16:18:42,066 autoreload 13836 11520 Watching for file changes wi
 INFO 2024-03-13 16:18:45,582 basehttp 13836 1884 "GET /orders/2/year/ HTTP/1.1" 200 3306
 INFO 2024-03-13 16:18:54,524 basehttp 13836 21512 "GET /orders/2/month/ HTTP/1.1" 200 1790
 INFO 2024-03-13 16:19:08,013 basehttp 13836 18780 "GET /orders/2/week/ HTTP/1.1" 200 921
+INFO 2024-03-15 16:28:23,587 autoreload 10084 12348 Watching for file changes with StatReloader
+INFO 2024-03-15 16:29:21,363 autoreload 10084 12348 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\forms.py changed, reloading.
+INFO 2024-03-15 16:29:23,137 autoreload 3016 11312 Watching for file changes with StatReloader
+INFO 2024-03-15 16:30:34,351 autoreload 6128 2248 Watching for file changes with StatReloader
+INFO 2024-03-15 16:32:00,620 autoreload 3568 9616 Watching for file changes with StatReloader
+INFO 2024-03-15 16:32:45,858 autoreload 9096 8548 Watching for file changes with StatReloader
+INFO 2024-03-15 16:33:31,452 autoreload 9096 8548 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
+INFO 2024-03-15 16:33:33,205 autoreload 14196 496 Watching for file changes with StatReloader
+INFO 2024-03-15 16:35:55,041 autoreload 14196 496 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp5\forms.py changed, reloading.
+INFO 2024-03-15 16:35:56,888 autoreload 13564 8088 Watching for file changes with StatReloader
+INFO 2024-03-15 16:36:07,727 autoreload 13564 8088 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp5\forms.py changed, reloading.
+INFO 2024-03-15 16:36:09,526 autoreload 7888 11128 Watching for file changes with StatReloader
+DEBUG 2024-03-15 16:36:12,582 views 7888 7512 <WSGIRequest: GET '/'>
+INFO 2024-03-15 16:36:12,673 basehttp 7888 7512 "GET / HTTP/1.1" 200 249
+WARNING 2024-03-15 16:36:13,824 log 7888 5720 Not Found: /favicon.ico
+WARNING 2024-03-15 16:36:13,838 basehttp 7888 5720 "GET /favicon.ico HTTP/1.1" 404 4999
+INFO 2024-03-15 16:36:28,150 basehttp 7888 8056 "GET /product/add HTTP/1.1" 200 1119
+INFO 2024-03-15 16:39:06,958 basehttp 7888 11292 "POST /product/add HTTP/1.1" 200 1277
+INFO 2024-03-15 16:39:19,043 basehttp 7888 8740 "POST /product/add HTTP/1.1" 200 1277
+INFO 2024-03-15 16:40:01,641 autoreload 7888 11128 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-15 16:40:05,106 autoreload 11096 13380 Watching for file changes with StatReloader
+INFO 2024-03-15 16:40:11,923 basehttp 11096 6208 "GET /product/add HTTP/1.1" 200 1119
+INFO 2024-03-15 16:40:37,633 basehttp 11096 13532 "POST /product/add HTTP/1.1" 200 1257
+INFO 2024-03-15 16:41:27,734 autoreload 11096 13380 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-15 16:41:29,405 autoreload 11848 12380 Watching for file changes with StatReloader
+INFO 2024-03-15 16:41:34,425 basehttp 11848 14124 "GET /product/add HTTP/1.1" 200 1119
+INFO 2024-03-15 16:41:46,587 basehttp 11848 12020 "POST /product/add HTTP/1.1" 200 1236
+INFO 2024-03-15 16:42:18,128 autoreload 11848 12380 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py changed, reloading.
+INFO 2024-03-15 16:42:21,790 autoreload 12812 6056 Watching for file changes with StatReloader
+DEBUG 2024-03-15 16:44:01,873 views 12812 10944 <WSGIRequest: GET '/'>
+INFO 2024-03-15 16:44:02,026 basehttp 12812 10944 "GET / HTTP/1.1" 200 249
+INFO 2024-03-15 16:44:11,390 basehttp 12812 8036 "GET /product/add HTTP/1.1" 200 1149
+ERROR 2024-03-15 16:44:44,910 log 12812 11624 Internal Server Error: /product/add
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table myapp2_product has no column named image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp2\views.py", line 79, in add_product
+    Product(**form.cleaned_data).save()
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table myapp2_product has no column named image
+ERROR 2024-03-15 16:44:44,979 basehttp 12812 11624 "POST /product/add HTTP/1.1" 500 151462
+INFO 2024-03-15 16:48:30,076 autoreload 7824 10852 Watching for file changes with StatReloader
+DEBUG 2024-03-15 16:48:33,300 views 7824 7176 <WSGIRequest: GET '/'>
+INFO 2024-03-15 16:48:33,336 basehttp 7824 7176 "GET / HTTP/1.1" 200 249
+INFO 2024-03-15 16:48:42,128 basehttp 7824 5760 "GET /product/add HTTP/1.1" 200 1149
+INFO 2024-03-15 16:49:06,448 basehttp 7824 10720 "POST /product/add HTTP/1.1" 200 1194
+INFO 2024-03-15 16:49:38,384 basehttp 7824 11100 "POST /product/add HTTP/1.1" 200 1194
+INFO 2024-03-15 16:49:53,269 basehttp 7824 7604 "POST /product/add HTTP/1.1" 200 1194
+INFO 2024-03-15 16:50:56,841 basehttp 7824 10104 "POST /product/add HTTP/1.1" 200 1194
