@@ -84,3 +84,8 @@ def add_product(request):
         'form': form,
     }
     return render(request, 'myapp2/add_product.html', context=context)
+
+def all_products(request):
+    products = Product.objects.all()
+    context = {'title': 'Список продуктов', 'products': products}
+    return render(request, 'myapp2/products.html', context=context)
