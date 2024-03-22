@@ -9,4 +9,6 @@ urlpatterns = [
  path('orders/<int:client_id>/year/', views.orders_year, name='orders_year'),
  path('product/add', views.add_product, name='add_product'),
  path('products/', views.all_products, name='all_products'),
+ #path('', include('add_product_image_urls')),
 ]
+

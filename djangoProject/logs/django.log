@@ -1669,3 +1669,108 @@ INFO 2024-03-20 11:35:01,135 basehttp 13468 14020 "GET /admin/myapp2/client/ HTT
 INFO 2024-03-20 11:35:01,337 basehttp 13468 14020 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-03-20 11:35:07,572 basehttp 13468 12400 "GET /admin/myapp2/order/ HTTP/1.1" 200 20204
 INFO 2024-03-20 11:35:07,626 basehttp 13468 12400 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-03-20 12:03:18,792 autoreload 17100 5000 Watching for file changes with StatReloader
+INFO 2024-03-20 12:06:04,948 autoreload 17100 5000 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
+INFO 2024-03-20 12:06:07,783 autoreload 18060 16856 Watching for file changes with StatReloader
+DEBUG 2024-03-20 12:07:05,562 views 18060 13712 <WSGIRequest: GET '/'>
+INFO 2024-03-20 12:07:07,516 basehttp 18060 13712 "GET / HTTP/1.1" 200 10065
+INFO 2024-03-20 12:07:14,225 basehttp 18060 13712 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-03-20 12:07:15,012 basehttp 18060 5548 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+INFO 2024-03-20 12:07:15,499 basehttp 18060 5888 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-03-20 12:07:16,666 basehttp 18060 5888 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2024-03-20 12:07:25,409 log 18060 5888 Not Found: /favicon.ico
+WARNING 2024-03-20 12:07:26,325 basehttp 18060 5888 "GET /favicon.ico HTTP/1.1" 404 15091
+DEBUG 2024-03-20 12:07:33,747 views 18060 5888 <WSGIRequest: GET '/'>
+INFO 2024-03-20 12:07:33,798 basehttp 18060 5888 "GET / HTTP/1.1" 200 10063
+INFO 2024-03-20 12:07:45,999 basehttp 18060 3368 "GET /__debug__/render_panel/?store_id=2b9ca4ba6912432da1185e749febd965&panel_id=HistoryPanel HTTP/1.1" 200 5784
+INFO 2024-03-20 12:07:46,187 basehttp 18060 3368 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-03-20 12:29:56,384 autoreload 18060 16856 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\myapp6\models.py changed, reloading.
+INFO 2024-03-20 12:29:59,969 autoreload 15540 14324 Watching for file changes with StatReloader
+INFO 2024-03-20 13:21:40,210 autoreload 10168 9760 Watching for file changes with StatReloader
+DEBUG 2024-03-20 13:21:48,102 views 10168 8856 <WSGIRequest: GET '/'>
+INFO 2024-03-20 13:21:48,433 basehttp 10168 8856 "GET / HTTP/1.1" 200 10064
+INFO 2024-03-20 13:21:49,375 basehttp 10168 6624 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-03-20 13:21:49,375 basehttp 10168 8856 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-03-20 13:21:49,726 basehttp 10168 4572 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-03-20 13:21:50,045 basehttp 10168 8856 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-03-20 13:22:30,194 basehttp 10168 8928 "GET /db/ HTTP/1.1" 200 10181
+INFO 2024-03-20 13:24:10,042 basehttp 10168 16640 "GET /view/ HTTP/1.1" 200 10165
+INFO 2024-03-20 13:25:16,064 basehttp 10168 13836 "GET /template/ HTTP/1.1" 200 10149
+INFO 2024-03-20 13:42:03,281 autoreload 10168 9760 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
+INFO 2024-03-20 13:42:11,008 autoreload 10584 16096 Watching for file changes with StatReloader
+INFO 2024-03-20 13:50:46,732 autoreload 10584 16096 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
+INFO 2024-03-20 13:50:53,111 autoreload 3508 1268 Watching for file changes with StatReloader
+INFO 2024-03-20 13:59:50,604 autoreload 3508 1268 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
+INFO 2024-03-22 15:15:14,231 autoreload 8332 11664 Watching for file changes with StatReloader
+ERROR 2024-03-22 15:15:19,110 log 8332 10468 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\contrib\messages\middleware.py", line 12, in process_request
+    request._messages = default_storage(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\contrib\messages\storage\__init__.py", line 12, in default_storage
+    return import_string(settings.MESSAGE_STORAGE)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\contrib\messages\storage\fallback.py", line 17, in __init__
+    storage_class(*args, **kwargs) for storage_class in self.storage_classes
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\contrib\messages\storage\cookie.py", line 92, in __init__
+    self.signer = signing.get_cookie_signer(salt=self.key_salt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\signing.py", line 114, in get_cookie_signer
+    key=_cookie_signer_key(settings.SECRET_KEY),
+                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\conf\__init__.py", line 98, in __getattr__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+ERROR 2024-03-22 15:15:19,325 basehttp 8332 10468 "GET / HTTP/1.1" 500 145
+ERROR 2024-03-22 15:15:20,325 log 8332 10468 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\contrib\messages\middleware.py", line 12, in process_request
+    request._messages = default_storage(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\contrib\messages\storage\__init__.py", line 12, in default_storage
+    return import_string(settings.MESSAGE_STORAGE)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\contrib\messages\storage\fallback.py", line 17, in __init__
+    storage_class(*args, **kwargs) for storage_class in self.storage_classes
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\contrib\messages\storage\cookie.py", line 92, in __init__
+    self.signer = signing.get_cookie_signer(salt=self.key_salt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\core\signing.py", line 114, in get_cookie_signer
+    key=_cookie_signer_key(settings.SECRET_KEY),
+                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\.venv\Lib\site-packages\django\conf\__init__.py", line 98, in __getattr__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+ERROR 2024-03-22 15:15:20,402 basehttp 8332 10468 "GET /favicon.ico HTTP/1.1" 500 145
+INFO 2024-03-22 15:15:51,709 autoreload 8332 11664 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
+INFO 2024-03-22 15:15:55,173 autoreload 15696 10516 Watching for file changes with StatReloader
+ERROR 2024-03-22 15:16:22,672 basehttp 15696 10200 "GET / HTTP/1.1" 500 59
+INFO 2024-03-22 15:16:22,822 basehttp 15696 10200 - Broken pipe from ('127.0.0.1', 47876)
+ERROR 2024-03-22 15:16:23,878 basehttp 15696 4660 "GET / HTTP/1.1" 500 59
+INFO 2024-03-22 15:16:49,103 autoreload 15696 10516 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
+INFO 2024-03-22 15:16:53,344 autoreload 1720 12516 Watching for file changes with StatReloader
+ERROR 2024-03-22 15:17:08,492 basehttp 1720 9044 "GET / HTTP/1.1" 500 59
+ERROR 2024-03-22 15:17:11,286 basehttp 1720 9044 "GET /favicon.ico HTTP/1.1" 500 59
+INFO 2024-03-22 15:19:13,315 autoreload 1720 12516 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
+INFO 2024-03-22 15:19:15,546 autoreload 14428 14512 Watching for file changes with StatReloader
+ERROR 2024-03-22 15:19:25,264 basehttp 14428 16292 "GET / HTTP/1.1" 500 59
+ERROR 2024-03-22 15:19:26,415 basehttp 14428 16292 "GET /favicon.ico HTTP/1.1" 500 59
+INFO 2024-03-22 15:22:20,352 autoreload 14428 14512 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
+INFO 2024-03-22 15:22:24,582 autoreload 13124 13544 Watching for file changes with StatReloader
+INFO 2024-03-22 15:26:44,558 autoreload 13124 13544 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
+INFO 2024-03-22 15:26:47,711 autoreload 5156 8476 Watching for file changes with StatReloader
+INFO 2024-03-22 15:32:02,710 autoreload 5156 8476 C:\Users\lexip\PycharmProjects\GB\Flask\djangoProject\djangoProject\settings.py changed, reloading.
